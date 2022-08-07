@@ -12,4 +12,5 @@ router.route('/user/:id').delete(userController.deleteUser);
 
 router.route('/user/image/:id').get(userController.getImage);
 
+
 export default router;
